@@ -1,8 +1,6 @@
 # Eight Elephants Group
 
-We build small, privacy-respecting Android apps.
-
-No tracking. No ads. No accounts. Your data stays on your device.
+We build Android apps.
 
 ## Our apps
 
@@ -14,7 +12,9 @@ A complete offline expense manager. Track spending, set budgets, see reports —
 
 ## About us
 
-Eight Elephants Group is a small independent developer studio. We make apps we want to use ourselves, with privacy as a starting point rather than an afterthought.
+Eight Elephants Group is a small independent developer studio.
+
+Each of our apps has its own approach to privacy, monetization, and feature set — see the per-app pages above for the details.
 
 ## Pages
 

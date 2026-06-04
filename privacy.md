@@ -1,21 +1,16 @@
 # Privacy at Eight Elephants Group
 
-Eight Elephants Group builds Android apps that respect your privacy. We do not run servers, we do not collect analytics, and we do not see your data.
+Eight Elephants Group publishes Android apps. Each app handles privacy differently depending on what it does, what data (if any) it needs, and how it makes money. There is no single group-wide privacy policy — what matters is the policy for the specific app you are using.
 
-Each of our apps has its own detailed privacy policy describing exactly what data stays on your device and which (if any) optional features use the network.
+Please open the policy for the app you have installed:
 
 ## Per-app policies
 
 - **aLike Expense Manager** — [Privacy policy](/alike-expense-manager/privacy.html)
 
-## Group-level commitments
+## What this page is
 
-These apply to every app we publish:
-
-- **No tracking SDKs.** No Firebase Analytics, no Crashlytics, no third-party telemetry of any kind.
-- **No advertising.** We do not run ads in our apps and do not access advertising IDs.
-- **No data sharing.** We do not share data with third parties because we do not collect any data to share.
-- **On-device first.** Anything that *can* run locally on your phone, does.
+This page exists so a curious visitor or a Play Store reviewer can find the publisher and the list of apps we ship. The detailed promises about what data is collected, what permissions are used, and what (if anything) is shared with third parties all live in each app's own policy linked above.
 
 ## Contact
 

@@ -14,4 +14,4 @@ Same address — please use a clear subject line.
 
 ## Privacy / data requests
 
-Because we do not collect any user data on servers, there is no data to access, export, or delete on our side. If you have questions about a specific app's local data, see that app's privacy policy.
+What data an app collects (if any) is described in that app's privacy policy. Please open the policy for the specific app you are asking about and follow the instructions there. The list of apps is on the [privacy index page](/privacy.html).
