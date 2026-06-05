@@ -9,10 +9,11 @@ Track every spend. See where your money goes. Set budgets. Get reports. All with
 - **Fast entry** — numpad, keyboard, or voice. Voice runs entirely on-device.
 - **Accounts, categories, budgets, recurring rules, tags.** Everything you need to organize a real financial life.
 - **Reports + filters** — the heart of the app. Slice transactions any way you want and see the patterns.
-- **Encrypted Google Drive backup** — optional, opt-in, and only ever to your own Drive.
 - **App lock** — PIN or biometric, your choice.
 - **Multi-currency.** Set a different currency per account.
 - **Truly offline.** Voice, reports, backups, every screen works without a network connection.
+- Google Drive backup (optional, opt-in, sandboxed to your own private Drive app folder).
+
 
 ## Privacy
 
