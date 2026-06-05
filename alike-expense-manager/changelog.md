@@ -12,7 +12,7 @@ Highlights:
 - Accounts, categories, budgets, recurring rules, tags.
 - Reports with deep filtering — the heart of the app.
 - App lock with PIN and biometric.
-- Encrypted Google Drive backup (optional, opt-in).
+- Google Drive backup (optional, opt-in, sandboxed to your own private Drive app folder).
 - Multi-currency support.
 - Fully offline.
 
