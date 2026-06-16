@@ -49,6 +49,28 @@ If you want better recognition you can opt into larger models (Whisper-base, Whi
 
 No telemetry is sent from the app for either path. Whisper transcription always happens locally — audio never leaves the device.
 
+## Your data rights (GDPR, UK GDPR, India DPDP Act, and similar laws)
+
+Modern data-protection laws — EU GDPR, UK GDPR, India's DPDP Act 2023, Brazil's LGPD, California's CCPA, and others — all give you a similar set of rights over your personal data: access it, correct it, delete it, take it elsewhere.
+
+aLike Expense Manager is an unusual case because **there is no developer-side data**. We operate no servers; we collect no analytics; we never read, copy, or receive your transactions, accounts, budgets, or voice. Everything lives on your own device, and (only if you opt in) a backup file in your own Google Drive's app-private folder.
+
+That means:
+
+- **Access:** the data is already in your hand inside the app. The Reports and Transactions screens are your access surface; **Settings → Backup & restore** can produce an exportable JSON file you can save anywhere.
+- **Correction:** edit any transaction, account, or budget directly in the app.
+- **Deletion ("right to be forgotten"):** uninstalling the app removes every byte of local data from your device. If you turned on Drive backup, you can delete the backup folder from your Google account under *drive.google.com → ⚙ Settings → Manage apps*, or revoke the app's Drive access at *myaccount.google.com → Security → Third-party access*.
+- **Portability:** the in-app export produces a structured JSON file you can carry anywhere.
+- **Objection / restriction of processing:** doesn't apply — we don't process your data on our side at all.
+- **Complaints:** EU users may complain to their national Data Protection Authority. UK users may complain to the ICO at *ico.org.uk/make-a-complaint*. Indian users may complain to the Data Protection Board of India once it is constituted under the DPDP Act.
+
+We don't operate a Subject Access Request portal because there is no developer-side data to request. The same applies to deletion, portability, and so on. The only thing we hold about any individual user is whatever you choose to send us in an email — which is voluntary and never required to use the app.
+
+If you have questions, write to **eightelephantsgroup@gmail.com**.
+
+**This stance does not change based on the user's region.** We treat every user the same regardless of where they live.
+
+
 ## Pro upgrade (in-app purchase)
 
 If you upgrade to Pro:
