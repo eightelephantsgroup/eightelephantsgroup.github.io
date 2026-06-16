@@ -25,6 +25,8 @@ aLike is an **offline expense manager**. Your financial data lives on your phone
 - **Biometric (USE_BIOMETRIC)** — only if you turn on app lock with fingerprint/face. Authentication is handled by Android; we never see your biometric data.
 - **Notifications (POST_NOTIFICATIONS)** — only if you turn on reminders for recurring transactions, budget alerts, or daily logging nudges.
 - **Foreground service (FOREGROUND_SERVICE / FOREGROUND_SERVICE_DATA_SYNC)** — used only briefly while a voice-recognition model download is in progress, so it can continue and show a progress notification.
+- **Boot completed** — a normal Android permission with no runtime prompt. After the phone reboots, Android wipes its alarm queue; this permission lets the app re-arm its two scheduled alarms (the optional daily summary notification at 23:59 and the recurring-rule daily catch-up at 00:01). It touches no user data and triggers no network activity.
+
 
 ## Optional Google Drive backup
 
@@ -41,11 +43,11 @@ If you connect Google Drive in Settings → Backup & restore:
 
 ## Optional voice-recognition model download
 
-The app ships with a small voice-recognition model. If you choose to download a larger one for better accuracy:
+Voice entry needs a Whisper speech model. The default model (Whisper-tiny, ~99 MB) is delivered via Google Play's standard on-demand asset-pack mechanism the first time you turn on voice in Settings — the pack is fetched from Google Play's CDN over HTTPS. Once installed, voice runs entirely on-device.
 
-- Models are downloaded from `github.com/k2-fsa/sherpa-onnx/releases`, an open-source project.
-- Downloads happen only when you tap "Download" in Settings → Voice input.
-- We do not send any telemetry with the download request.
+If you want better recognition you can opt into larger models (Whisper-base, Whisper-small) from Settings → Voice input. Those download from the open-source sherpa-onnx project's GitHub releases over HTTPS only when you tap Download.
+
+No telemetry is sent from the app for either path. Whisper transcription always happens locally — audio never leaves the device.
 
 ## Pro upgrade (in-app purchase)
 
