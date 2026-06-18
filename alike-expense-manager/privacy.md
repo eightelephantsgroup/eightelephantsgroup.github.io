@@ -25,7 +25,7 @@ aLike is an **offline expense manager**. Your financial data lives on your phone
 - **Biometric (USE_BIOMETRIC)** — only if you turn on app lock with fingerprint/face. Authentication is handled by Android; we never see your biometric data.
 - **Notifications (POST_NOTIFICATIONS)** — only if you turn on reminders for recurring transactions, budget alerts, or daily logging nudges.
 - **Foreground service (FOREGROUND_SERVICE / FOREGROUND_SERVICE_DATA_SYNC)** — used only briefly while a voice-recognition model download is in progress, so it can continue and show a progress notification.
-- **Boot completed** — a normal Android permission with no runtime prompt. After the phone reboots, Android wipes its alarm queue; this permission lets the app re-arm its two scheduled alarms (the optional daily summary notification at 23:59 and the recurring-rule daily catch-up at 00:01). It touches no user data and triggers no network activity.
+- **Boot completed (RECEIVE_BOOT_COMPLETED )** — a normal Android permission with no runtime prompt. After the phone reboots, Android wipes its alarm queue; this permission lets the app re-arm its two scheduled alarms (the optional daily summary notification at 23:59 and the recurring-rule daily catch-up at 00:01). It touches no user data and triggers no network activity.
 
 
 ## Optional Google Drive backup
