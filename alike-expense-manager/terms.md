@@ -1,6 +1,6 @@
 # aLike Expense Manager — Terms of Use
 
-**Last updated:** 4 June 2026
+**Last updated:** 20 June 2026
 
 These terms apply specifically to **aLike Expense Manager**. They are in addition to the [Eight Elephants Group group-level terms](/terms.html).
 
@@ -44,3 +44,16 @@ We may update these terms. The "Last updated" date at the top will reflect any c
 ## Contact
 
 Questions: **eightelephantsgroup@gmail.com**
+
+## Termination
+
+You may stop using aLike Expense Manager at any time by uninstalling the
+app. Uninstalling removes all locally stored data; if you had Google
+Drive backup enabled, your backup file remains in your own Drive AppData
+folder until you delete it from your Google account.
+
+We may discontinue the app, or make changes that materially alter its
+functionality, at any time. Where reasonably possible, we will give
+advance notice through the app or this site. Discontinuation does not
+affect your right to delete your locally stored data.
+
