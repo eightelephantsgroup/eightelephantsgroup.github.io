@@ -3,7 +3,7 @@
 - **App:** aLike Expense Manager
 - **Developer:** Eight Elephants Group
 - **Package:** com.eightelephantsgroup.expmanager
-- **Effective date:** 2 June 2026
+- **Effective date:** 20 June 2026
 - **Contact:** eightelephantsgroup@gmail.com
 
 ## The short version
