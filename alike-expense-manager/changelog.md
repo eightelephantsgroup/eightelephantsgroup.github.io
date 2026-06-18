@@ -2,7 +2,20 @@
 
 This page lists every public release. The most recent version is at the top.
 
-## v1.0 — *coming soon*
+## v1.0 — 20 June 2026
+
+The first public release of aLike Expense Manager.
+
+Highlights:
+- Voice input — speak a transaction, review, save. Recognition runs fully on-device.
+- Reports suite — 20 reports with persistent filters across accounts, categories, dates, tags, and currency.
+- Drive backup — optional, sandboxed to your own Drive AppData folder. No data leaves your device unless you turn it on.
+- App lock — PIN unlock with optional fingerprint / face unlock on supported devices.
+- Recurring rules, budgets, multi-account, multi-currency — all the day-to-day infrastructure of an expense manager, working offline.
+- Privacy-first by design — no analytics, no tracking, no telemetry, no advertising. Your data stays on your device.
+
+Pro upgrade unlocks multi-account, multi-budget, multi-recurring, and three additional reports.
+
 
 Initial public release on Google Play.
 
