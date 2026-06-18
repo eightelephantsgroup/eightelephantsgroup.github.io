@@ -60,4 +60,12 @@ Yes — email is the best way. We read every message even if we cannot reply ind
 
 **eightelephantsgroup@gmail.com**
 
-Please put "aLike" somewhere in the subject line so we can route your message faster.
+Please put "aLike expense manager" somewhere in the subject line so we can route your message faster.
+
+## Other resources
+
+- [Privacy policy](/alike-expense-manager/privacy.html)
+- [Terms of Use](/alike-expense-manager/terms.html)
+- [Changelog](/alike-expense-manager/changelog.html)
+- [Eight Elephants Group](https://eightelephantsgroup.github.io/)
+
