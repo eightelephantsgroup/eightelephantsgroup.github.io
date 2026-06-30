@@ -18,7 +18,7 @@ your information. It is written to match how the app actually behaves.
 - **We don't collect, see, sell, or share your data.** No analytics, no advertising, no tracking.
   Nothing you add to the app is sent to us.
 - **Backups are optional and go to *your own* Google Drive** — not to us.
-- **Text recognition and document scanning run on your device.**
+- **Text recognition, document scanning, and voice search all run on your device.**
 
 ## What the app stores, and where
 
@@ -33,9 +33,12 @@ We do **not** operate servers that receive your documents, and we have no abilit
 
 - **Notifications** (optional): to remind you when a document is due for renewal. Reminders are
   generated on your device. You can decline this; you simply won't get reminders.
-- **Microphone** (optional, for voice search — *upcoming feature*): used only while you actively use
-  voice search. Speech is processed **on your device**; audio is not recorded, stored, or sent
+- **Microphone** (optional, for voice search): used only while you actively use voice search to speak
+  a search query. Speech is processed **on your device**; audio is not recorded, stored, or sent
   anywhere.
+- **Foreground service while downloading the voice model** (only when you choose to download a
+  voice-search model): the app shows a progress notification and keeps the download running if you
+  switch apps. It is used solely for that download and stops when the download finishes.
 
 The app does **not** request storage or camera permissions. Choosing a document uses the system file
 picker, choosing a photo uses the Android photo picker, and scanning uses Google Play Services'
@@ -47,6 +50,18 @@ Scanning uses the **Google Play Services ML Kit document scanner**, and text rec
 **ML Kit on-device text recognition**. Both run **locally on your device**; your document images and
 recognized text are not uploaded to us or to a third party for these features. Google's handling of
 its on-device libraries is governed by Google's own terms.
+
+## Voice search
+
+Voice search lets you find your documents by speaking instead of typing. Speech recognition runs
+**entirely on your device** using an offline model (Whisper via sherpa-onnx). Your voice is processed
+locally; the audio is **never recorded, stored, or sent** to us or any third party.
+
+The speech-recognition **model files** are downloaded over the internet the first time you use voice
+search (and you can optionally download larger, more accurate models). Only the model files are
+downloaded **to** your device — no document data, audio, or personal information is sent as part of
+this. The default model is delivered through **Google Play**; Google's handling of that delivery is
+governed by Google's own terms.
 
 ## Optional Google Drive backup
 
