@@ -4,7 +4,7 @@ title: Terms of Use — aLike DocNest
 
 # Terms of Use — aLike DocNest
 
-**Last updated: 27 June 2026**
+**Last updated: 15 July 2026**
 
 These terms govern your use of the aLike DocNest mobile app ("the app"), published by **Eight
 Elephants Group** ("we", "us"). By using the app you agree to these terms.
