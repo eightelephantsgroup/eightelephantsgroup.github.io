@@ -4,7 +4,7 @@ title: Privacy Policy — aLike DocNest
 
 # Privacy Policy — aLike DocNest
 
-**Last updated: 27 June 2026**
+**Last updated: 15 July 2026**
 
 aLike DocNest ("the app") is a private, offline-first family document manager published by
 **Eight Elephants Group** ("we", "us"). This policy explains what the app does and does not do with
